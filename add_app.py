@@ -48,21 +48,21 @@ col1, col2, col3, col4, col5 = st.columns([4, 0.7, 4, 0.7, 4])
 
 with col1:
     st.markdown("<div class='cloud-title'>☁️ Number 1</div>", unsafe_allow_html=True)
-    num1 = st.number_input("", key="n1", value=0.0)
+    num1 = st.number_input("Number 1", key="n1", value=0.0, )
 
 with col2:
     st.markdown("<div class='plus'>+</div>", unsafe_allow_html=True)
 
 with col3:
     st.markdown("<div class='cloud-title'>☁️ Number 2</div>", unsafe_allow_html=True)
-    num2 = st.number_input("", key="n2", value=0.0)
+    num2 = st.number_input("Number 2", key="n2", value=0.0, )
 
 with col4:
     st.markdown("<div class='plus'>+</div>", unsafe_allow_html=True)
 
 with col5:
     st.markdown("<div class='cloud-title'>☁️ Number 3</div>", unsafe_allow_html=True)
-    num3 = st.number_input("", key="n3", value=0.0)
+    num3 = st.number_input("Number 3", key="n3", value=0.0, )
 
 st.write("")
 st.write("")
