@@ -4,7 +4,14 @@
   <img src="output.png" alt="Project Output" width="900"/>
 </p>
 
-## About the Project
+
+<p align="center">
+
+🚀 <b>Live Demo:</b> https://smart-add-6ypw.onrender.com
+
+</p>
+
+## 📖 About the Project
 
 This project demonstrates how **Multiple Linear Regression** can learn the mathematical relationship between three input numbers and predict their sum.
 
@@ -14,55 +21,55 @@ The trained model is integrated into a **Streamlit web application** with a clou
 
 ---
 
-## Features
+## ✨ Features
 
-- Predicts the sum of three numbers using Machine Learning
-- Beautiful Cloud-themed Streamlit Interface
-- Displays:
-  - ML Prediction
-  - Actual Sum
-  - Prediction Error
-- Fast and interactive UI
-- Fully deployed using Streamlit Community Cloud
+- 🔮 Predicts the sum of three numbers using Machine Learning
+- ☁️ Beautiful Cloud-themed Streamlit Interface
+- 📟 Displays:
+  - 🤖 ML Prediction
+  - ✅ Actual Sum
+  - 🎯 Prediction Error
+- ⚡ Fast and interactive UI
+- 🌍 Fully deployed using Streamlit Community Cloud
 
 ---
 
-## Machine Learning Workflow
+## 🧠 Machine Learning Workflow
 
 This project follows the complete Machine Learning pipeline:
 
-- Generated a custom dataset
-- Loaded the dataset using **Pandas**
-- Performed basic **Exploratory Data Analysis (EDA)**
-- Split the dataset into **Training** and **Testing** sets
-- Trained a **Multiple Linear Regression** model
-- Evaluated the model using:
-  - Mean Absolute Error (MAE)
-  - Root Mean Square Error (RMSE)
-  - R² Score
-- Saved the trained model using **Pickle**
-- Built an interactive **Streamlit** web application
-- Loaded the saved model for prediction
-- Accepted user input from the UI
-- Predicted the output in real time
-- Deployed the application online
+- 📄 Generated a custom dataset
+- 📚 Loaded the dataset using **Pandas**
+- 🔍 Performed basic **Exploratory Data Analysis (EDA)**
+- ✂️ Split the dataset into **Training** and **Testing** sets
+- 🏋️ Trained a **Multiple Linear Regression** model
+- 📈 Evaluated the model using:
+  - 📉 Mean Absolute Error (MAE)
+  - 📉 Root Mean Square Error (RMSE)
+  - ⭐ R² Score
+- 💾 Saved the trained model using **Pickle**
+- 🌊 Built an interactive **Streamlit** web application
+- 📥 Loaded the saved model for prediction
+- ⌨️ Accepted user input from the UI
+- ⏱️ Predicted the output in real time
+- 🚀 Deployed the application online
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- Python
-- NumPy
-- Pandas
-- Scikit-learn
-- Pickle
-- Streamlit
-- HTML
-- CSS
+- 🐍 Python
+- 🔢 NumPy
+- 📊 Pandas
+- 🤖 Scikit-learn
+- 🥒 Pickle
+- 🌊 Streamlit
+- 🌐 HTML
+- 🎨 CSS
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 ML_Addition_Predictor/
@@ -79,7 +86,7 @@ ML_Addition_Predictor/
 
 ---
 
-## Model Performance
+## 📊 Model Performance
 
 | Metric | Value |
 |---------|--------|
@@ -89,7 +96,7 @@ ML_Addition_Predictor/
 
 ---
 
-## How to Run Locally
+## 🚀 How to Run Locally
 
 ### Clone the repository
 
@@ -117,18 +124,19 @@ streamlit run app.py
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
-- Cloud-shaped custom input fields
-- Animated UI
-- Dark mode support
-- Addition of model visualization
-- Support for more mathematical operations
+- ☁️ Cloud-shaped custom input fields
+- 🎬 Animated UI
+- 🌙 Dark mode support
+- 📊 Addition of model visualization
+- ➕ Support for more mathematical operations
 
 ---
 
-## Author
+## 👩‍💻 Author
 
 **Varsha Sharma**
 
+GitHub: https://github.com/varshasharma01
 LinkedIn: https://www.linkedin.com/in/varsha-sharma-41004b228/
