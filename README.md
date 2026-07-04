@@ -1,7 +1,7 @@
 # ☁️ ML Addition Predictor using Multiple Linear Regression
 
 <p align="center">
-  <img src="images/output.png" alt="Project Output" width="900"/>
+  <img src="output.png" alt="Project Output" width="900"/>
 </p>
 
 ## About the Project
