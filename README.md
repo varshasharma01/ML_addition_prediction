@@ -30,7 +30,7 @@ The trained model is integrated into a **Streamlit web application** with a clou
   - ✅ Actual Sum
   - 🎯 Prediction Error
 - ⚡ Fast and interactive UI
-- 🌍 Fully deployed using Streamlit Community Cloud
+- 🌍 Fully deployed using Render
 
 ---
 
@@ -42,7 +42,7 @@ This project follows the complete Machine Learning pipeline:
 - 📚 Loaded the dataset using **Pandas**
 - 🔍 Performed basic **Exploratory Data Analysis (EDA)**
 - ✂️ Split the dataset into **Training** and **Testing** sets
-- 🏋️ Trained a **Multiple Linear Regression** model
+- 🏋️ Implemented **Multiple Linear Regression from scratch** (custom `MyLR` class using the Normal Equation instead of scikit-learn's `LinearRegression`)
 - 📈 Evaluated the model using:
   - 📉 Mean Absolute Error (MAE)
   - 📉 Root Mean Square Error (RMSE)
@@ -61,7 +61,7 @@ This project follows the complete Machine Learning pipeline:
 - 🐍 Python
 - 🔢 NumPy
 - 📊 Pandas
-- 🤖 Scikit-learn
+- 🤖 Scikit-learn (for evaluation metrics only)
 - 🥒 Pickle
 - 🌊 Streamlit
 - 🌐 HTML
@@ -74,11 +74,15 @@ This project follows the complete Machine Learning pipeline:
 ```text
 ML_Addition_Predictor/
 │
-├── app.py
-├── model.pkl
-├── dataset.csv
-├── style.css
-├── requirements.txt
+├── add_app.py                 # Streamlit web application
+├── my_lr.py                   # Custom Linear Regression implementation
+├── model.pkl                  # Trained model (pickled MyLR instance)
+├── generate_dataset.py        # Dataset generation script
+├── generated_dataset_add.csv  # Generated dataset
+├── Addition_prediction.ipynb  # Jupyter notebook for training & EDA
+├── style.css                  # UI styling
+├── requirements.txt           # Python dependencies
+├── output.png                 # Project screenshot
 ├── README.md
 └── .streamlit/
     └── config.toml
@@ -119,7 +123,7 @@ pip install -r requirements.txt
 ### Run the application
 
 ```bash
-streamlit run app.py
+streamlit run add_app.py
 ```
 
 ---
