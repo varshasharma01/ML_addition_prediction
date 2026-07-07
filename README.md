@@ -101,11 +101,12 @@ ML_Addition_Predictor/
 ---
 
 ## 🚀 How to Run Locally
+streamlit run add_app.py
 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ML_Addition_Predictor.git
+git clone https://github.com/varshasharma01/ML_Addition_Predictor.git
 ```
 
 ### Navigate to the project
